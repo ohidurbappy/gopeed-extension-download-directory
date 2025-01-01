@@ -4,7 +4,7 @@
   "title": "gopeed extention download directory",
   "description": "gopeed download directory",
   "icon": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "",
   "repository": {
     "url": "https://github.com/ohidurbappy/gopeed-extension-download-directory"
@@ -13,7 +13,7 @@
     {
       "event": "onResolve",
       "match": {
-        "urls": ["*://*/"]
+        "urls": ["*://*"]
       },
       "entry": "dist/index.js"
     }
