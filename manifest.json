@@ -1,0 +1,22 @@
+{
+  "name": "gopeed-extension-download-directory",
+  "author": "orb",
+  "title": "gopeed extention download directory",
+  "description": "gopeed download directory",
+  "icon": "",
+  "version": "1.0.0",
+  "homepage": "",
+  "repository": {
+    "url": "https://github.com/ohidurbappy/gopeed-extension-download-directory"
+  },
+  "scripts": [
+    {
+      "event": "onResolve",
+      "match": {
+        "urls": ["*://*/"]
+      },
+      "entry": "dist/index.js"
+    }
+  ],
+  "settings": []
+}
