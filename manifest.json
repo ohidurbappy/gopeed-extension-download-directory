@@ -13,7 +13,7 @@
     {
       "event": "onResolve",
       "match": {
-        "urls": ["*://*"]
+        "urls": ["http://*:*/*"]
       },
       "entry": "dist/index.js"
     }
